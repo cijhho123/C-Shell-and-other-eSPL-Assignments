@@ -1,5 +1,5 @@
 # Extended System Programming Laboratory (eSPL) Assignments
-In this course we focus on low-level system programming principles. The labs are based on interaction with the LINUX operating system, mostly using C, but also some assembly language. 
+This course focuses on low-level system programming principles. The labs are based on interaction with the LINUX operating system, mostly using C, but also some assembly language. 
 
 Issues covered in the course are:
 1. Processes, memory models, and interaction with the operating system.
@@ -12,17 +12,14 @@ written in C.
 7. “Binary” files: formats, manipulation.
 8. The ELF format, linking and loading.
 
-All the lecture notes are available [here]()
-
-
-# Lectures
+All the lecture material is available [here](Lectures)
 
 # Chronological Order
 The tasks were given as pairs of home assignment and frontal lab, so the order is as follows:
 A -> 1 -> B -> 2 -> C -> 3 -> D -> 4 -> E -> 5
 
 # Frontal Labs
-## Lab 1 - C Programming: Pointers, Memory Management, and Simulating Object-Oriented Behavior
+## Lab 1 - C, Pointers & Memory Management, and Simulating Object-Oriented Behavior
 This assignment covers key concepts in C programming, focusing on memory management and pointers, debugging techniques, and simulating object-oriented behavior in C.  
 It includes understanding storage addresses, using pointers with various data types, and working with structs and function pointers to mimic object-oriented programming.  
 Debugging using tools like gdb and exploring memory layout through practical exercises are also emphasized.
@@ -83,9 +80,9 @@ The merging process combines sections from both files into a new ELF file, handl
 
 
 # System Programming Laboratory (SPL)
-This course is a follow up of the System Programming Laboratory (SPL). It's assignments are available here:
-[Project 1 - Warehouse Game in C++11](https://github.com/cijhho123/Warehouse-Game)
-[Project 2 - Set Game in Java](https://github.com/cijhho123/Set-Game)
+This course is a follow up of the System Programming Laboratory (SPL) course. It's assignments are available here:  
+[Project 1 - Warehouse Game in C++11](https://github.com/cijhho123/Warehouse-Game)  
+[Project 2 - Set Game in Java](https://github.com/cijhho123/Set-Game)  
 [Project 3 - TFTP Implementation in Java](https://github.com/cijhho123/Extended-TFTP-Implementation)
 
 # Credit
