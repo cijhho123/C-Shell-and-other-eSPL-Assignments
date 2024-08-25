@@ -15,7 +15,7 @@ written in C.
 All the lecture material is available [here](Lectures)
 
 # Chronological Order
-The tasks were given as pairs of home assignment and frontal lab, so the order is as follows:
+The tasks were given as pairs of home assignment and frontal lab, so the order is as follows:  
 A -> 1 -> B -> 2 -> C -> 3 -> D -> 4 -> E -> 5
 
 # Frontal Labs
