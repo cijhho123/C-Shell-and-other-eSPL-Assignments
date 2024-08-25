@@ -1,0 +1,22 @@
+part1 : util.c main.c util.h Ass1.s
+	# compile
+	nasm -g -f elf -w+all -o ass1.o Ass1.s
+	gcc -m32 -Wall  -c -nostdlib -fno-stack-protector util.c -o util.o
+	gcc -m32 -Wall  -c -nostdlib -fno-stack-protector main.c -o main.o
+
+
+	#link
+	ld -m elf_i386 ass1.o main.o util.o -o task1
+	
+encoder : encoder.c
+	# compile
+	gcc -g -m32 -Wall -c -o encoder.o encoder.c
+
+	#link
+	gcc -m32 -g -o encoder encoder.o
+	
+
+clean :
+	rm -f *.o
+	rm -f task1
+
